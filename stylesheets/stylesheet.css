@@ -300,8 +300,15 @@ img {
   padding: 50px 10px 0px 10px;
 }
 
-#header_wrap .inner a {
-  padding-right: 10px;
+#header_wrap ul {
+  padding: 10px 0px 12px 0px;
+}
+#header_wrap li {
+  display: block;
+  float: left;
+  padding: 0px;
+  margin-right: 12px;
+  list-style: none;
 }
 
 #project_title {
@@ -309,14 +316,6 @@ img {
   color: #fff;
   font-size: 42px;
   font-weight: 700;
-  text-shadow: #111 0px 0px 10px;
-}
-
-#project_tagline {
-  color: #fff;
-  font-size: 24px;
-  font-weight: 300;
-  background: none;
   text-shadow: #111 0px 0px 10px;
 }
 
@@ -365,8 +364,12 @@ img {
   border-bottom: 1px solid #111;
 }
 
+#main_content a {
+	padding: 0px;
+}
+
 #main_content {
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 #footer_wrap {
