@@ -167,8 +167,6 @@ pre, code {
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
 
-
-
 }
 
 pre {
@@ -425,10 +423,6 @@ img {
     min-width: 320px;
     max-width: 480px;
     font-size: 11px;
-  }
-
-  header a {
-    font-size: 28px;
   }
 
 }
