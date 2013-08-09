@@ -1,13 +1,14 @@
-/*******************************************************************************
-Slate Theme for GitHub Pages
-by Jason Costello, @jsncostello
-*******************************************************************************/
+/*
+ * Jeanderson Candido
+ *
+ * Original Theme by Jason Costello, @jsncostello
+ */
 
 @import url(pygment_trac.css);
 
-/*******************************************************************************
-MeyerWeb Reset
-*******************************************************************************/
+/*
+ * MeyerWeb Reset
+ */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -47,9 +48,9 @@ table {
   border-spacing: 0;
 }
 
-/*******************************************************************************
-Theme Styles
-*******************************************************************************/
+/*
+ * Theme Styles
+ */
 
 body {
   box-sizing: border-box;
@@ -102,6 +103,7 @@ p {
 
 footer p {
   color: #f2f2f2;
+  margin: 0px;
 }
 
 a {
@@ -122,13 +124,12 @@ a {
 }
 
 #main_content a:hover {
-  color: #0069ba;
-  text-shadow: #0090ff 0px 0px 2px;
+  color: #004c87;
+  text-decoration: underline;
 }
 
-footer a:hover {
+a:hover {
   color: #43adff;
-  text-shadow: #0090ff 0px 0px 2px;
 }
 
 em {
@@ -258,9 +259,9 @@ img {
   max-width: 100%;
 }
 
-/*******************************************************************************
-Full-Width Styles
-*******************************************************************************/
+/*
+ * Full-Width Styles
+ */
 
 .outer {
   width: 100%;
@@ -298,7 +299,11 @@ Full-Width Styles
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+  padding: 50px 10px 0px 10px;
+}
+
+#header_wrap .inner a {
+  padding-right: 10px;
 }
 
 #project_title {
@@ -363,18 +368,16 @@ Full-Width Styles
 }
 
 #main_content {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 #footer_wrap {
   background: #212121;
 }
 
-
-
-/*******************************************************************************
-Small Device Styles
-*******************************************************************************/
+/*
+ * Small Device Styles
+ */
 
 @media screen and (max-width: 480px) {
   body {
