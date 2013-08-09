@@ -368,7 +368,7 @@ img {
 }
 
 #main_content {
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 #footer_wrap {
@@ -425,6 +425,14 @@ img {
     min-width: 320px;
     max-width: 480px;
     font-size: 11px;
+  }
+
+  footer p {
+    font-size: 10px;
+  }
+
+  header a {
+    font-size: 16px;
   }
 
 }
