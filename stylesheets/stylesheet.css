@@ -379,7 +379,6 @@ img {
 /*
  * Small Device Styles
  */
-
 @media screen and (max-width: 480px) {
   body {
     font-size:14px;
@@ -426,10 +425,6 @@ img {
     min-width: 320px;
     max-width: 480px;
     font-size: 11px;
-  }
-
-  #header_wrap ul {
-  	font-size: 16px;
   }
 
 }
