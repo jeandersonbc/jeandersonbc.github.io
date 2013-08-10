@@ -1,5 +1,5 @@
 /*
- * Jeanderson Candido
+ * Modified by Jeanderson Candido
  *
  * Original Theme by Jason Costello, @jsncostello
  */
@@ -426,6 +426,11 @@ img {
     min-width: 320px;
     max-width: 480px;
     font-size: 11px;
+  }
+
+  ul {
+  	font-size: 40px;
+
   }
 
 }
