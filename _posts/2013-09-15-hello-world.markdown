@@ -18,7 +18,7 @@ class HelloWorld {
 
 I don't have much time to write but I will try to keep this blog updated as much as possible. There's always a little extra time to share something :)
 
-I hope you have fun learning new things here as much as I will. I believe that interaction is the key for learning. Unfortunately, the only way to interact with is through e-mail by this moment. However, I will be implementing some nice features here for comments and social networks.
+I hope you have fun learning new things here as much as I will. I believe that interaction is the key for learning. Unfortunately, the only way to interact with me is through e-mail by this moment. However, I will be implementing some nice features here for comments and social networks.
 Finally, this website is powered by [Jekyll](https://jekyllrb.com)! Don't forget to check it out ;)
 
 
