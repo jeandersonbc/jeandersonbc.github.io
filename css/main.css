@@ -121,8 +121,8 @@ a.tool_logo {
 
 #avatar {
   background-color:gray;
-  width:145px;
-  height:145px;
+  width:15%;
+  height:100%;
   float:left;
   margin-right:5px;
 }
