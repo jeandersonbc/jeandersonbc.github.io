@@ -55,9 +55,10 @@ ul.posts span {
 .site {
   font-size: 125%;
   text-align: justify;
-  width: 45em;
+  width: 46em;
   margin: 3em auto 2em;
   line-height: 1.5em;
+  padding: 2em;
 }
 
 .site .header {  
@@ -102,6 +103,7 @@ ul.posts span {
   border-top: 4px solid #eee;
   margin-top: 2em;
   overflow: hidden;
+  text-align: center;
 }
 
 .site .footer .rss {
