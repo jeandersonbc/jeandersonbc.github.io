@@ -1,0 +1,45 @@
+#avatar {
+    display:block;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+	-webkit-border-radius: 60px;
+	-moz-border-radius: 60px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    float: left;
+    margin: 18px 34px 0px 34px;
+}
+
+.article ul {
+    margin-left: 20px;
+}
+.social-networks {
+    height: 60px;
+    width:300px;
+    display: block;
+    margin: 0 auto;
+}
+.github, .gplus, .linkedin, .twitter, .fb, .instagram {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    float: left;
+    margin: 5px;
+}
+.github {
+}
+.linkedin {
+}
+.twitter {
+}
+.fb {
+}
+.instagram {
+}
