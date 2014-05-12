@@ -11,35 +11,17 @@
     float: left;
     margin: 18px 34px 0px 34px;
 }
-
 .article ul {
     margin-left: 20px;
 }
 .social-networks {
-    height: 60px;
-    width:300px;
-    display: block;
-    margin: 0 auto;
+    height: 50px;
+    width: auto;
+    padding: 15px 0px;
 }
-.github, .gplus, .linkedin, .twitter, .fb, .instagram {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-	-webkit-border-radius: 20px;
-	-moz-border-radius: 20px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+#twitter, #github, #gplus, #linkedin, #fb, #instagram {
+    width: auto; 
+    height: 50px;
     float: left;
-    margin: 5px;
-}
-.github {
-}
-.linkedin {
-}
-.twitter {
-}
-.fb {
-}
-.instagram {
+    margin-right: 15px;
 }

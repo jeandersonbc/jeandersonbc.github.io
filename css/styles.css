@@ -46,7 +46,7 @@ body {
 }
 .page-content {
     padding: 10px 0px;
-    height: 570px;
+    min-height: 570px;
 }
 .article {
     margin: 10px;
