@@ -58,6 +58,7 @@ body {
     letter-spacing: 1px;
     border-bottom: 1px dashed black;
     font-weight: 400;
+    margin-bottom: 20px;
 }
 .article p {
     padding: 10px 0px;
