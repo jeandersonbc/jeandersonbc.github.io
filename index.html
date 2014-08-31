@@ -3,6 +3,7 @@
 
     <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
     <title>Jeanderson Candido</title>
     </head>
 
@@ -10,12 +11,17 @@
 
       <div id="headline">
         <div class="container">
+          <header>
           <h1>Jeanderson Candido</h1>
           <h2>Welcome to my personal page</h1>
+          </header>
 
+          <div class="image">
+            <img src="images/avatar.jpg" alt="Jeanderson Candido's profile picture"/>
+          </div>
           <p>I'm currently undergrad in Computer Science at Federal University of Campina Grande, Brazil.
           Since my first year, I've been involved with researches related to Software Engineering.</p>
-          <p>I started as a volunteer student developing tools to assist graduate research. Nowadays,
+          <p>I started as a volunteer student developing tools to assist graduate research and, nowadays,
           I'm involved with Open Source projects and Software development. Thanks for the visit.</p>
           
           <p>My interests include:
@@ -28,7 +34,7 @@
           </ul></p>
 
           <p>Find more details below.</p>
-          </div>
+        </div>
       </div>
 
       <div id="section1">
@@ -41,7 +47,7 @@
               <li>Campina Grande, PB, Brazil</li>
               <li>BS. Computer Science</li>
               <li>Expected graduation in March, 2015</li>
-            </ul><div>
+            </ul></div>
 
             <div class="school-description">
             <h1>Walsh University</h1>
@@ -49,7 +55,7 @@
               <li>North Canton, OH, USA</li>
               <li>Visiting Student</li>
               <li>Fall 2012 - Spring 2013</li>
-            </ul><div>
+            </ul></div>
 
             <div class="school-description">
             <h1>Western Michigan University</h1>
@@ -57,26 +63,91 @@
               <li>Kalamazoo, MI, USA</li>
               <li>English as a Second Language</li>
               <li>Summer 2012</li>
-            </ul><div>
+            </ul></div>
 
         </div>
       </div>
       <div id="section2">
         <div class="container">
           <h2>Experience</h2>
+
+          <div class="experience-item">
+            <h1>Eclipse Foundation</h1>
+            <h3>Remote development</h3>
+            <h2>Software Developer</h2>
+            <h3>Apr 14 - Aug 14</h3>
+            <p>I evolved the JFace Framework, part of the Eclipse Platform UI project, to add support
+            to Java 1.5 features, mainly Java Generics. More information
+            <a href="http://github.com/jeandersonbc/gsoc14-eclipse-planning" target="_blank">here</a>.</p>
+            <ul>
+              <li>Worked with Java, Git, Gerrit, and Eclipse API</li>
+              <li>Mentors: <a href="http://www.vogella.com/people/larsvogel.html" target="_blank">Lars Vogel</a> and Hendrik Still</li>
+              <li>Sponsored by the Google Summer of Code 2014 program</li>
+            </ul>
+          </div>
+
+          <div class="experience-item">
+            <h1>Software Productivity Group</h1>
+            <h3>Federal University of Campina Grande, Campina Grande, PB, Brazil</h3>
+            <h2>Research Assistant</h2>
+            <h3>Aug 13 - Aug 14</h3>
+            <p>I developed a tool (CDolly) to generate C programs based on a formal specification in Alloy
+            for a subset of the C language. This tool was used in an experiment to detect bugs introduced
+            by improper refactorings applied with refactorings tools.</p>
+            <ul>
+              <li>Worked with Java, C, Git, and Alloy</li>
+              <li>Advisor: <a href="http://www.dsc.ufcg.edu.br/~rohit/Rohit_Gheyi/Home.html" target="_blank">Dr. Rohit Gheyi</a></li>
+              <li>Sponsored by the Brazilian Scientific Initiation program.</li>
+            </ul>
+          </div>
+
+          <div class="experience-item">
+            <h1>Programming Languages and Systems Group</h1>
+            <h3>University of Massachusetts, Amherst, MA, USA</h3>
+            <h2>Research Assistant</h2>
+            <h3>May 13 - Aug 13</h3>
+            <p>I worked with a plug-in prototype that evaluates code transformations continuously
+            through the programmer's IDE. The purpose is to identify bugs as soon as they are introduced.</p>
+            <ul>
+              <li>Worked with Java, Git, and Plug-in Development for Eclipse</li>
+              <li>Advisor: <a href="http://people.cs.umass.edu/~brun/" target="_blank">Dr. Yuriy Brun</a></li>
+              <li>Sponsored by the Brazilian Scientific Mobility program.</li>
+            </ul>
+          </div>
+
+          <div class="experience-item">
+            <h1>Software Practices Laboratory</h1>
+            <h3>Federal University of Campina Grande, Campina Grande, PB, Brazil</h3>
+            <h2>Research Assistant</h2>
+            <h3>Aug 11 - Jun 12</h3>
+            <p>I extended an existing Domain-Specific Language to make it possible to easily describe
+            the behavior of Real-Time systems. In addition, I developed a compiler for the extended language and integrated it
+            to <a href="https://sites.google.com/a/computacao.ufcg.edu.br/symbolrt/" target="_blank">SYMBOLRT</a>, a tool 
+            to automatically generate test case scenarios for Real-Time systems.</p>
+            <ul>
+              <li>Worked with Java, JavaCC, and Subversion</li>
+              <li>Advisor: <a href="http://wilkerson.computacao.ufcg.edu.br/" target="_blank">Dr. Wilkerson Andrade</a></li>
+              <li>Sponsored by the Brazilian Scientific Initiation program.</li>
+            </ul>
+          </div>
+
         </div>
       </div>
+
       <div id="section3">
         <div class="container">
-          <h2>Awards and Honors</h2>
+        <h2>Honors and Awards</h2>
+          <ul>
+            <li>Gold Medal in the Paraiba State Olympiad in Informatics. 2014</li>
+            <li>One of the 1.173 (out of 4.420) students accepted to the 2014 Google Summer of Code Program. Eclipse Foundation.</li>
+            <li>Dean's List (Spring 2013). Walsh University</li>
+            <li>Best Tool Award to SYMBOLRT in the Tools Session of the 3rd Brazilian Conference on Software: Theory and
+            Practice, CBSoft 2012</li>
+          </ul>
         </div>
       </div>
+
       <div id="section4">
-        <div class="container">
-          <h2>Publications</h2>
-        </div>
-      </div>
-      <div id="section5">
         <div class="container">
           <h2>Contact me</h2>
           <p>Feel free to send me a message. You can reach me at "jeandersonbc [at] gmail [dot] com".</p>
