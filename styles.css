@@ -1,0 +1,182 @@
+/******************************************************************
+ * styles.css
+ *
+ * Author: Jeanderson Candido - http://jeandersonbc.github.io
+ * Date:   10-MAY-2014
+ *****************************************************************/
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100);
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 14pt;
+}
+body {
+    font-family: Roboto, Arial;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+ul {
+    padding-left: 20px;
+    list-style-type: square;
+}
+h1 { font-size: 22pt; }
+h2 { font-size: 18pt; }
+h3 { font-size: 10pt; }
+
+.container {
+    padding: 20px;
+    padding-bottom: 40px;
+}
+.title {
+    margin: 30px 0px;
+    font-weight: 300;
+    font-size: 32pt;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.image {
+    text-align: center;
+}
+
+/* HEADLINE */
+
+header {
+    margin: 30px 0px;
+}
+header h1 {
+    font-size: 40pt;
+    font-weight: 100;
+}
+#avatar {
+    margin: 30px 0px;
+}
+#headline {
+    background-image: url(images/cover.jpg);
+    background-size: cover;
+}
+#headline h2 {
+    font-size: 14pt;
+    font-weight: 400;
+}
+#headline h1, #headline h2, #headline p, #headline ul {
+    color: white;
+    text-align: left;
+    margin: 0px;
+}
+#headline p {
+    margin: 20px 0px;
+    letter-spacing: 1px;
+}
+#headline img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+/* SECTION 1 - EDUCATION */
+
+/* SECTION 2 */
+
+#section2 {
+    background-color: #e9e9e9;
+}
+.experience-item {
+    padding: 30px 0px;
+    border-top: 1px dotted black;
+    text-align: left;
+}
+.experience-item p {
+    padding-bottom: 15px;
+}
+.experience-item h1 {
+    letter-spacing: 4px;
+    font-weight: 300;
+}
+.experience-item h2, .experience-item h3 {
+    font-weight: 300;
+}
+
+/* SECTION 3 - HONORS AND AWARDS */
+
+#section3 {
+    background-color: #f5f5f5;
+}
+#section3 li {
+    padding: 10px 0px;
+}
+
+/* SECTION 4 - CONTACT */
+
+#section4 {
+    background-color: black;
+    color: white;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 640px) {
+
+    /* HEADLINE */
+
+    header h1 { font-size: 48pt; }
+    #headline h2 {
+        font-size: 18pt;
+    }
+
+    /* SECTION 2 - EXPERIENCE */
+
+    .experience-item {
+        padding: 30px 20px;
+    }
+
+}
+@media (min-width: 768px) {
+
+    /* ALL */
+
+    .container {
+        max-width: 768px;
+        margin: auto;
+    }
+
+    /* HEADLINE */
+
+    header {
+        margin: 60px 0px;
+    }
+    header h1 { font-size: 52pt; }
+    #headline h2 {
+        font-size: 22pt;
+    }
+    .first-p {
+        margin: 20px 0px;
+        padding-top: 25px;
+        letter-spacing: 1px;
+    }
+    #headline img {
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+        -webkit-border-radius: 75px;
+        -moz-border-radius: 75px;
+        box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+        -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+        -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    }
+    #headline p, #section2 p, #section3 ul {
+        text-align: justify;
+    }
+    #avatar {
+        padding: 0px;
+        margin: 4px 30px;
+        float: left;
+    }
+}
