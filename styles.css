@@ -18,7 +18,7 @@ body {
 }
 .container {
     padding: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 header {
     margin: 30px 0px;
@@ -79,13 +79,7 @@ ul {
 }
 .experience-item {
     padding: 30px 0px;
-    border-bottom: 1px dotted black;
-}
-#first-exp-item { 
-    padding-top: 0px;
-}
-#last-exp-item { 
-    border: none;
+    border-top: 1px dotted black;
 }
 .experience-item p {
     padding-bottom: 15px;
@@ -127,9 +121,73 @@ ul {
 #wmu {
     height: 120px;
 }
-#section3 li, #section2 li {
+#section2 li {
     margin: 10px 0px;
 }
 #avatar {
     margin: 40px 0px;
+}
+.school-description-temp h1 {
+    font-size: 16pt;
+    font-weight: 400;
+}
+.school-description-temp {
+    min-height: 195px;
+    max-width: 600px;
+    padding-bottom: 30px;
+}
+.school-image {
+    text-align: center;
+    min-width: 200px;
+}
+#section3 li {
+    padding: 15px 0px;
+}
+* ul {
+    list-style-type: square;
+}
+@media (min-width: 640px) {
+
+    .school-image {
+        float: left;
+    }
+    .description-temp ul {
+        padding-left: 230px;
+    }
+    .school-description-temp {
+        margin-left: 40px;
+    }
+}
+@media (min-width: 800px) {
+
+    #headline img {
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+        -webkit-border-radius: 75px;
+        -moz-border-radius: 75px;
+        box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+        -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+        -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    }
+    #headline p, #section2 p, #section3 ul {
+        text-align: justify;
+    }
+    #avatar {
+        padding: 0px;
+        margin: 0px;
+    }
+}
+@media (min-width: 768px) {
+
+    .container {
+        margin: auto;
+        max-width: 768px;
+    }
+    .school-description-temp h1 {
+        font-size: 20pt;
+        text-align: left;
+        font-weight: 300;
+        padding: 5px 0px;
+    }
 }
