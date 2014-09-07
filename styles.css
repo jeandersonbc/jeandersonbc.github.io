@@ -28,11 +28,11 @@ h3 { font-size: 10pt; }
     padding: 20px;
     padding-bottom: 40px;
 }
-.container h2 {
+.title {
     margin: 30px 0px;
     font-weight: 300;
-    text-align: center;
     font-size: 32pt;
+    text-align: center;
 }
 .image {
     text-align: center;
@@ -44,11 +44,11 @@ header {
     margin: 30px 0px;
 }
 header h1 {
-    font-size: 44pt;
+    font-size: 40pt;
     font-weight: 100;
 }
 #avatar {
-    margin: 40px 0px;
+    margin: 30px 0px;
 }
 #headline {
     background-image: url(images/cover.jpg);
@@ -94,12 +94,9 @@ header h1 {
     padding-bottom: 15px;
 }
 .experience-item h1 {
-    font-weight: 300;
-}
-.experience-item h2 {
     font-weight: 400;
 }
-.experience-item h3 {
+.experience-item h2, .experience-item h3 {
     font-weight: 300;
 }
 
