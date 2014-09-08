@@ -64,7 +64,10 @@ a:hover {
     margin: 30px 0px;
 }
 #headline {
-    background: url(images/cover.jpg);
+    background: url(images/cover.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 #headline h2 {
