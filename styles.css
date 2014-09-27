@@ -39,6 +39,12 @@ header, #avatar {
 header h1 {
     font-size: 40pt;
     font-weight: 100;
+    text-shadow: 3px 3px 3px black;
+}
+header h2 {
+    font-size: 14pt;
+    font-weight: 400;
+    text-shadow: 3px 3px 3px black;
 }
 a, a:visited {
     text-decoration: none;
@@ -56,10 +62,6 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     color: white;
-}
-#headline h2 {
-    font-size: 14pt;
-    font-weight: 400;
 }
 #headline p {
     margin: 20px 0px;
