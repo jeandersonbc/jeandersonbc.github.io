@@ -1,16 +1,10 @@
 {
-  "name": "src",
+  "name": "www-template",
   "authors": [
     "Jeanderson Candido <jeandersonbc@gmail.com>"
   ],
-  "description": "web site template",
-  "main": "",
-  "keywords": [
-    "personal",
-    "page"
-  ],
+  "description": "page template",
   "license": "MIT",
-  "homepage": "http://jeandersonbc.github.io",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -19,6 +13,6 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "^3.3.7"
+    "normalize-css": "^5.0.0"
   }
 }
