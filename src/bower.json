@@ -1,0 +1,24 @@
+{
+  "name": "src",
+  "authors": [
+    "Jeanderson Candido <jeandersonbc@gmail.com>"
+  ],
+  "description": "web site template",
+  "main": "",
+  "keywords": [
+    "personal",
+    "page"
+  ],
+  "license": "MIT",
+  "homepage": "http://jeandersonbc.github.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
