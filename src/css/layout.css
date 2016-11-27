@@ -1,0 +1,18 @@
+.flex-container {
+    justify-content: center;
+    flex-flow: row wrap;
+    display: flex;
+    align-items: stretch;
+}
+
+.aside {
+    width: 200px;
+}
+
+.main {
+    width: 800px;
+}
+
+.page-section {
+    padding: 5px 10px;
+}

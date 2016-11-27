@@ -1,22 +1,4 @@
-.flex-container {
-    justify-content: center;
-    flex-flow: row wrap;
-    display: flex;
-    align-items: stretch;
-}
-
-.aside img {
+.profile-picture {
     max-width: 200px;
-}
-
-.aside {
-    width: 200px;
-}
-
-.main {
-    width: 800px;
-}
-
-.page-section {
-    padding: 5px 10px;
+    border-radius: 15px;
 }
