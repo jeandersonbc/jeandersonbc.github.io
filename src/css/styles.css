@@ -1,16 +1,22 @@
-.aside {
-    width: 200px;
-}
-.main {
-    max-width: 500px;
-}
-
 .flex-container {
-    /* TODO */
+    justify-content: center;
+    flex-flow: row wrap;
+    display: flex;
+    align-items: stretch;
 }
 
 .aside img {
     max-width: 200px;
 }
 
-* { outline: 1px solid red; }
+.aside {
+    width: 200px;
+}
+
+.main {
+    width: 800px;
+}
+
+.page-section {
+    padding: 5px 10px;
+}
