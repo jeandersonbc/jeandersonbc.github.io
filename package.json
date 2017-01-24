@@ -1,0 +1,22 @@
+{
+  "name": "www",
+  "version": "1.0.0",
+  "description": "Template for my personal page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeandersonbc/www.git"
+  },
+  "author": "Jeanderson Candido <jeandersonbc@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeandersonbc/www/issues"
+  },
+  "homepage": "https://github.com/jeandersonbc/www#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

@@ -1,10 +1,10 @@
 {
-  "name": "www-template-personal",
+  "name": "www",
   "authors": [
     "Jeanderson Candido <jeandersonbc@gmail.com>"
   ],
-  "description": "Template for a personal page",
-  "license": "MIT",
+  "description": "Template for my personal page",
+  "license": "ISC",
   "ignore": [
     "**/.*",
     "node_modules",
