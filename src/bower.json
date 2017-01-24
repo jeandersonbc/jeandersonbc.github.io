@@ -1,9 +1,9 @@
 {
-  "name": "www-template",
+  "name": "www-template-personal",
   "authors": [
     "Jeanderson Candido <jeandersonbc@gmail.com>"
   ],
-  "description": "page template",
+  "description": "Template for a personal page",
   "license": "MIT",
   "ignore": [
     "**/.*",
