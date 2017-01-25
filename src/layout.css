@@ -23,7 +23,10 @@ header img {
     width: 125px;
     border-radius: 62px;
 }
-.detail {
+.footnote {
     font-size: 9pt;
     font-weight: 100;
+}
+.monospaced {
+    font-family: Monospace;
 }
