@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jeandersonbc/www#readme",
   "devDependencies": {
+    "del": "^2.2.2",
     "gulp": "^3.9.1"
   }
 }
