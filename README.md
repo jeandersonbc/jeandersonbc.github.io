@@ -1,8 +1,8 @@
-# www
-My personal website
+# dev-jeandersonbc.github.io
+Development environment from my personal website
 
+This is not just another average static html page: THIS IS MY FRONTEND PLAYGROUND :metal: (which occasionally I use as my website :-P).
 
-Not just another average static html page: this is my frontend playground :metal: (which occasionally I use as my website).
 My goal here is to keep updated with frontend frameworks and get my hands dirty.
 For a sufficiently large project, I recommend using [Yeoman](http://yeoman.io/) to scaffold your client-side project
 (unless you have really good reasons to do it yourself) or [JHipster](https://jhipster.github.io/) to quickly kickoff a
