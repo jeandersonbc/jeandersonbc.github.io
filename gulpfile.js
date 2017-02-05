@@ -1,9 +1,9 @@
-var gulp = require('gulp')
-var del = require('del')
-
-var usemin = require('gulp-usemin')
-var minifyHtml = require('gulp-minify-html')
-var cleanCSS = require('gulp-clean-css')
+var gulp = require('gulp'),
+    del = require('del'),
+    usemin = require('gulp-usemin'),
+    minifyHtml = require('gulp-minify-html'),
+    cleanCSS = require('gulp-clean-css'),
+    webserver = require('gulp-webserver')
 
 var path = {
     src: './src',
@@ -29,4 +29,13 @@ gulp.task('assets', ['clean'], function() {
         .pipe(gulp.dest(path.build));
 });
 
-gulp.task('default', ['assets', 'usemin']);
+gulp.task('webserver', function() {
+    gulp.src(path.build)
+        .pipe(webserver({
+            livereload: {enable: true}
+        }));
+});
+
+gulp.task('build', ['assets', 'usemin']);
+
+gulp.task('default', ['build']);
