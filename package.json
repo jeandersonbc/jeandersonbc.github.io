@@ -21,6 +21,7 @@
     "gulp": "^3.9.1",
     "gulp-clean-css": "^2.3.2",
     "gulp-minify-html": "^1.0.6",
+    "gulp-replace": "^0.5.4",
     "gulp-usemin": "^0.3.27",
     "gulp-webserver": "^0.9.1"
   }

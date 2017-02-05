@@ -30,3 +30,9 @@ header img {
 .monospaced {
     font-family: Monospace;
 }
+a {
+    color: black;
+}
+a:visited {
+    color: black;
+}
