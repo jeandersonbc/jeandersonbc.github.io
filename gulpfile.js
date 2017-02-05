@@ -29,13 +29,13 @@ gulp.task('assets', ['clean'], function() {
         .pipe(gulp.dest(path.build));
 });
 
+gulp.task('build', ['assets', 'usemin']);
+
 gulp.task('webserver', function() {
     gulp.src(path.build)
         .pipe(webserver({
             livereload: {enable: true}
         }));
 });
-
-gulp.task('build', ['assets', 'usemin']);
 
 gulp.task('default', ['build']);
