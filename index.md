@@ -6,18 +6,20 @@
 layout: page 
 ---
 Currently, I'm pursuing a Master's degree in Computer Science at Federal
-University of Pernambuco (Recife, PE - Brazil) advised by Prof. Dr. Marcelo
-d'Amorim. My goal is on finding, diagnosing, repair, and preventing software
-bugs and vulnerabilities.
+University of Pernambuco (Recife, PE - Brazil) advised by [Prof. Dr. Marcelo
+d'Amorim](http://www.cin.ufpe.br/~damorim/). My goal is on finding,
+diagnosing, repair, and preventing software bugs and vulnerabilities.
 
 I received my Bachelor's degree in Computer Science from Federal University of
 Campina Grande (Campina Grande, PB - Brazil) in 2015. As an undergraduate
 student, I was awarded with a full scholarship from the Brazilian Government to
 study at Walsh University (North Canton, OH - USA).
 
-Past experiences include a Google Summer of Code participation with the Eclipse
-Foundation and a research internship at University of Massachusetts (Amherst,
-MA - USA).
+Past experiences include a [Google Summer of
+Code](https://www.google-melange.com/archive/gsoc/2014/orgs/eclipse/projects/jeandersonbc.html)
+participation with the [Eclipse
+Foundation](https://www.eclipse.org/eclipse/platform-ui/) and a research
+internship at University of Massachusetts (Amherst, MA - USA).
 
 ### Research Interests
 
@@ -25,3 +27,8 @@ MA - USA).
 * Software Testing
 * Configurable Systems
 * Distributed Systems
+
+### External Links
+* [LinkedIn]()
+* [GitHub]()
+* [Twitter]()
