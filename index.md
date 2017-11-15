@@ -25,8 +25,9 @@ internship at University of Massachusetts (Amherst, MA - USA).
 
 * Program Analysis
 * Software Testing
-* Configurable Systems
-* Distributed Systems
+* Software Evolution
+* Software Architecture
+* Mining Software Repositories
 
 ### External Links
 * [LinkedIn]()
