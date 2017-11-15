@@ -5,6 +5,11 @@
 #layout: home
 layout: page 
 ---
+<p style="text-align: center">
+<img alt="Jeanderson Candido" src="/img/avatar.jpg" class="img-responsive" style="width:125px; height:125px; border-radius:20px;"/>
+<h3 style="text-align:center;font-weight:100;letter-spacing:2px;">Researcher in Software Engineering & Developer</h3>
+</p>
+
 Currently, I'm pursuing a Master's degree in Computer Science at Federal
 University of Pernambuco (Recife, PE - Brazil) advised by [Prof. Dr. Marcelo
 d'Amorim](http://www.cin.ufpe.br/~damorim/). My goal is on finding,
