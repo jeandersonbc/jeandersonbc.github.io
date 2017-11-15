@@ -28,11 +28,21 @@ internship at University of Massachusetts (Amherst, MA - USA).
 
 ### Research Interests
 
+I'm highly interested in empowering developers with tools to help them to
+tackle the challenges of software engineering. My main research field is
+Program Analysis and Software Testing, but I'm usually curious/interested in
+other fields related to Software Engineering.
+
 * Program Analysis
 * Software Testing
-* Software Evolution
 * Software Architecture
-* Mining Software Repositories
+* Software Evolution
+* Programming Languages
+
+<p style="font-size:smaller;text-align:right;font-style:italic;font-weight:100;letter-spacing:1px;">
+"It's the question, Neo. It's the question that drive us."<br>
+-The Matrix, 1999.
+</p>
 
 ### External Links
 * [LinkedIn]()
