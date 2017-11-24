@@ -45,6 +45,9 @@ other fields related to Software Engineering.
 </p>
 
 ### External Links
-* [LinkedIn]()
-* [GitHub]()
-* [Twitter]()
+* [LinkedIn](https://www.linkedin.com/in/jeandersonbc)
+* [GitHub](http://www.github.com/jeandersonbc)
+
+<a class="twitter-timeline" data-height="300" data-width="400"
+href="https://twitter.com/jeandersonbc?ref_src=twsrc%5Etfw">Tweets by jeandersonbc</a>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
