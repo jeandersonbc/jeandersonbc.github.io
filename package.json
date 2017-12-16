@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jeandersonbc/jeandersonbc.github.io#readme",
   "devDependencies": {
+    "browser-sync": "^2.18.13",
     "gulp": "^3.9.1"
   }
 }
