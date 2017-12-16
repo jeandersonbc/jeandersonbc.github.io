@@ -1,0 +1,22 @@
+{
+  "name": "webpage",
+  "version": "1.0.0",
+  "description": "My personal page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeandersonbc/jeandersonbc.github.io.git"
+  },
+  "author": "jeandersonbc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeandersonbc/jeandersonbc.github.io/issues"
+  },
+  "homepage": "https://github.com/jeandersonbc/jeandersonbc.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
